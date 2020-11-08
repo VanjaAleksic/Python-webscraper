@@ -14,7 +14,7 @@ price_per_kg = []
 weights = []
 images = []
 
-pages = np.arange(1, 4, 1) #iterate through pages (start at 1, stop at page 4 and step by 1)
+pages = np.arange(1, 5, 1) #iterate through pages (start at 1, stop at page 4 and step by 1)
 
 for source in pages:
     #loop that iterates through pages 1-4, finds product divs
